@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Freaks - Demo</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <img class="logo" src="assets/logo.svg" alt="Fitness Freaks Logo">
+        <h1 class="header-title">Workout Demonstration</h1>
+        <p class="header-subtitle">Learn the exercises to perfect your form and maximize your fitness journey.</p>
+    </header>
+
+    <!-- Demo Videos Section -->
+    <section class="demo-section">
+        <h2 class="section-title">Watch and Learn</h2>
+        <div class="demo-grid">
+            <!-- Bicep Curl -->
+            <div class="demo-card">
+                <video class="demo-video" controls autoplay loop>
+                    <source src="assets/bicep-vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 class="exercise-title">Bicep Curl</h3>
+                <p class="exercise-description">Strengthen your arms with proper bicep curl technique.</p>
+            </div>
+
+            <!-- Push Ups -->
+            <div class="demo-card">
+                <video class="demo-video" controls autoplay loop>
+                    <source src="assets/push-vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 class="exercise-title">Push Ups</h3>
+                <p class="exercise-description">Build upper body strength and core stability.</p>
+            </div>
+
+            <!-- Squats -->
+            <div class="demo-card">
+                <video class="demo-video" controls autoplay loop>
+                    <source src="assets/squarts-vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 class="exercise-title">Squats</h3>
+                <p class="exercise-description">Enhance your lower body strength with squats.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dive In Button -->
+    <div class="cta-section">
+        <button class="btn btn-dive" onclick="window.location.href='/app'">Dive In</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Copyright © 2024 - Fitness Freaks. All rights reserved.</p>
+    </footer>
+</body>
+</html>
